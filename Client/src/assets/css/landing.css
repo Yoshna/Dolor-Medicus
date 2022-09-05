@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+.landing-img {
+  height: 100vh;
+  width: 100%;
+  background-image: url("../media/medical.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.landing-main {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50vh;
+  text-align: center;
+}
+
+.landing-content {
+  margin-left: 40px;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  
+}
+
+.landing-content h1 {
+  text-align: center;
+  left: 0;
+  margin-left: 0px;
+  font-size: 70px;
+  font-weight:550;
+  color: white;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.p-info {
+  margin-top: 20px;
+}
+
+.landing-main p {
+  text-align: center;
+  font-size: 24px;
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+}
+
+.getstarted {
+  margin-left: 0;
+  margin-top: 30px;
+}
+
+.getstarted-btn {
+  background-color: #c89a69;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin-left: 0px;
+  text-align: center;
+}
